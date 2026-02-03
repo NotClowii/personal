@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yes.css">
+    <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8bce1;
+}
+
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.header_text, .text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Adjusted for better spacing */
+    margin-left: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: #80c3d8;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Hoorayy!!!</h1>
+        </div>
+        <br><br><br>
+        <div class="gif_container">
+            <img src="https://media.tenor.com/G0onTTJjxCEAAAAm/my-melody-lrigysword.webp" alt="Cute animated illustration" style="margin-top: -60px;">
+        </div>
+        <br><br><br>
+        <!-- Adjusted position of the text element by 100px -->
+        <p class="text" style="margin-top: -30px;">:>></p>
+    </div>
+
+    <!-- Note: Positioned at the bottom near the footbar -->
+    <p style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); text-align: center; color: #777;">for more details press <a href="here.html">here</a></p>
+
+    <!-- Include any external scripts if needed -->
+</body>
+</html>
